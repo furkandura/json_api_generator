@@ -43,7 +43,7 @@ class JsonApiGenerator
         $jsonFileDir = sprintf("jsons/%s.json", $jsonFileName);
 
         if (!file_exists($jsonFileDir)) {
-            return $this->setError(self::JSONFİLENOTFOUND);
+            return $this->setError(self::JSONFILENOTFOUND);
         }
 
         $jsonContent = file_get_contents($jsonFileDir);
