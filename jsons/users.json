@@ -1,0 +1,12 @@
+[
+    {
+        "id" : 1,
+        "name": "Furkan DURA",
+        "favorite_color": "blue"
+    },
+    {
+        "id" : 2,
+        "name" : "Jack",
+        "favorite_color": "black"
+    }
+]
