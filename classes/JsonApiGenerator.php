@@ -5,7 +5,7 @@
 class JsonApiGenerator
 {
 
-    const JSONFİLENOTFOUND = "Json dosyası bulunamadı.";
+    const JSONFILENOTFOUND = "Json dosyası bulunamadı.";
     const RECORDNOTFOUND = "Aradığınız kayıt bulunamadı.";
     public $requestArr;
     public $errors = [];
